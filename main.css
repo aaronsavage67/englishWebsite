@@ -1,0 +1,98 @@
+html {
+    background: #215a3f;
+    background-image: #215a3f;
+}
+
+body {
+    background: #e6e9e9;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Arial";
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    font-family: "Calibri";
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+img {
+    background: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 400px;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    content: "\2714";
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    content: "\2716";
+}
+
+table.c {
+    table-layout: auto;
+    width: 100%;    
+}
